@@ -16,10 +16,10 @@
  
 # Key components:
 
-Attiny412
-MIC29302
-R05C1TF05S-R
-INA168
+ Attiny412
+ MIC29302
+ R05C1TF05S-R
+ INA168
 
 
 # PCB
