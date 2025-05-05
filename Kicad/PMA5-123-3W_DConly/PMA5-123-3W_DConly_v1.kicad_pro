@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 0.8,
-          "width": 0.8
+          "drill": 0.0,
+          "height": 0.57,
+          "width": 0.675
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -353,7 +353,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PMA5-123-3W_DConly.kicad_pro",
+    "filename": "PMA5-123-3W_DConly_v1.kicad_pro",
     "version": 1
   },
   "net_settings": {
