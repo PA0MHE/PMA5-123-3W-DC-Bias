@@ -21,6 +21,16 @@
  R05C1TF05S-R
  INA168
 
+ # SW
+ 
+ ATtiny412
+ Uses megatinyCore in boardmanager
+ Chip: ATtiny412
+ clock: 8 MHz internal
+ Programmer: serialUPDI 230400 baud
+
+ By pressing SW1 once in RX condition, the Idq is set to ~450mA and stored in EEPROM
+
 
 # PCB
 
