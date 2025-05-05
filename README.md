@@ -22,6 +22,7 @@
  INA168
 
  # SW
+ 
  ATtiny412
  Uses megatinyCore in boardmanager
  Chip: ATtiny412
