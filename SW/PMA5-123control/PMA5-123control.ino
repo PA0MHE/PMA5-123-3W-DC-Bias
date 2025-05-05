@@ -26,6 +26,9 @@
 #define delaySteps 5
 
 #define VggEeprom 1
+#define IdEeprom 2
+
+#define EepromProgrammed 0x55
 
 bool TX = false;
 bool error = false;
@@ -47,8 +50,8 @@ void setup()
   
   analogWrite(VgateDAC, VggMin);
 
-//  EEPROM.write(VggEeprom, 112);
-  
+  if (EEPROM.read(IdEeprom) != EepromProgrammed) EEPROM.write(VggEeprom, VggMin);
+
   delay(500);
   analogRead(currADC);
 }
@@ -155,6 +158,7 @@ bool VggProgram(void) {
            if (analogRead(currADC) > Idq) { 
               vggTarget = i;
               EEPROM.write(VggEeprom, i);
+              EEPROM.write(IdEeprom, EepromProgrammed);
               digitalWrite(vddEnable, LOW);   // 7V VDD of PMA5-123 is Off 
               delay(500); 
               return true;
