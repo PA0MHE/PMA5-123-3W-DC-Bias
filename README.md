@@ -23,7 +23,6 @@
 
  # SW
 	
-	ATtiny412
 	Uses megatinyCore in boardmanager
 	Chip: ATtiny412
 	clock: 8 MHz internal
