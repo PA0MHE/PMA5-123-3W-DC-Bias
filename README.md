@@ -29,6 +29,7 @@
 	Programmer: serialUPDI 230400 baud
 
  By pressing SW1 once in RX condition, the Idq is set to ~450mA and stored in EEPROM
+ HEX file is included.
 
 
 # PCB
