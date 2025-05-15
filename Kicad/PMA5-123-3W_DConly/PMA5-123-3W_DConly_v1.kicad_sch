@@ -2496,9 +2496,9 @@
     )
     (pin "2" (uuid f6f85086-02d9-4b91-aa3b-f69fa05d4d75))
     (pin "3" (uuid dc39e1f6-1ce3-4705-93b7-a6d5ea2aa70e))
-    (pin "4" (uuid eb4b8915-c738-4bce-94ef-432d5fb886a3))
+    (pin "4" (uuid eb4b8915-c738-4bce-94ef-432d5fb886a4))
     (pin "1" (uuid 3de05c97-15da-465c-ba91-76e28140edae))
-    (pin "4" (uuid eb4b8915-c738-4bce-94ef-432d5fb886a3))
+    (pin "4" (uuid eb4b8915-c738-4bce-94ef-432d5fb886a4))
     (pin "5" (uuid 7c1bd1f2-ea94-4ed2-9a6a-76a09899fdd2))
   )
 
@@ -2559,9 +2559,9 @@
     )
     (pin "2" (uuid bf8ffb7d-0379-4916-a01d-a4e7c91ac98d))
     (pin "3" (uuid de2859c7-9ffb-43e1-b2ea-32b77a661761))
-    (pin "4" (uuid a4677ea6-4fe0-4bb2-a774-462a38203532))
+    (pin "4" (uuid a4677ea6-4fe0-4bb2-a774-462a38203533))
     (pin "1" (uuid 505d7ee4-3156-4e43-8af1-c80b78854340))
-    (pin "4" (uuid a4677ea6-4fe0-4bb2-a774-462a38203532))
+    (pin "4" (uuid a4677ea6-4fe0-4bb2-a774-462a38203533))
     (pin "5" (uuid 674806fd-2c0e-42df-9c98-e0a82e35ee84))
   )
 
@@ -2719,7 +2719,7 @@
     (property "Reference" "R9" (id 0) (at 182.88 143.5099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100K" (id 1) (at 182.88 146.0499 0)
+    (property "Value" "51K" (id 1) (at 182.88 146.0499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 178.562 144.78 90)
@@ -3127,7 +3127,7 @@
       (reference "R8") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d579d2e4-a3f5-44e4-98ef-e49c1190581a"
-      (reference "R9") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R9") (unit 1) (value "51K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/67c1dbd2-e86a-48bb-a02b-9a81d941dc94"
       (reference "R10") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0603_1608Metric")
