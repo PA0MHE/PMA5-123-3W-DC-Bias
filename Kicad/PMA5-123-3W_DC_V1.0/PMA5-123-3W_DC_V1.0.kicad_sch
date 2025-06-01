@@ -1132,6 +1132,7 @@
     )
   )
 
+
   (junction (at 128.905 85.725) (diameter 0) (color 0 0 0 0)
     (uuid 03c31c86-19e0-40f1-95eb-29c58d8db831)
   )
@@ -2653,9 +2654,9 @@
     )
     (pin "2" (uuid f6f85086-02d9-4b91-aa3b-f69fa05d4d75))
     (pin "3" (uuid dc39e1f6-1ce3-4705-93b7-a6d5ea2aa70e))
-    (pin "4" (uuid eb4b8915-c738-4bce-94ef-432d5fb886a7))
+    (pin "4" (uuid eb4b8915-c738-4bce-94ef-432d5fb886a8))
     (pin "1" (uuid 3de05c97-15da-465c-ba91-76e28140edae))
-    (pin "4" (uuid eb4b8915-c738-4bce-94ef-432d5fb886a7))
+    (pin "4" (uuid eb4b8915-c738-4bce-94ef-432d5fb886a8))
     (pin "5" (uuid 7c1bd1f2-ea94-4ed2-9a6a-76a09899fdd2))
   )
 
@@ -2716,9 +2717,9 @@
     )
     (pin "2" (uuid bf8ffb7d-0379-4916-a01d-a4e7c91ac98d))
     (pin "3" (uuid de2859c7-9ffb-43e1-b2ea-32b77a661761))
-    (pin "4" (uuid a4677ea6-4fe0-4bb2-a774-462a38203536))
+    (pin "4" (uuid a4677ea6-4fe0-4bb2-a774-462a38203537))
     (pin "1" (uuid 505d7ee4-3156-4e43-8af1-c80b78854340))
-    (pin "4" (uuid a4677ea6-4fe0-4bb2-a774-462a38203536))
+    (pin "4" (uuid a4677ea6-4fe0-4bb2-a774-462a38203537))
     (pin "5" (uuid 674806fd-2c0e-42df-9c98-e0a82e35ee84))
   )
 
