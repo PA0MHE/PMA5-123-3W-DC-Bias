@@ -40,10 +40,15 @@ Gerber files are included, PCB's can be ordered at JCL PCB
 # Software
 
 A V1.0 of the Control software is included.
-Please Check the comments and disclamer before
-any attempt to use this Controller board.
+
+
+# Disclaimer  
+
+"This software and hardware design is provided "as is" and without  
+any warranties, express or implied, including but not limited to the   
+implied warranties of merchantability and fitness for a particular purpose." 
 
 
 73's
-Maarten PA0MHE
-Rens PA3AXA
+
+Maarten PA0MHE, Rens PA3AXA
