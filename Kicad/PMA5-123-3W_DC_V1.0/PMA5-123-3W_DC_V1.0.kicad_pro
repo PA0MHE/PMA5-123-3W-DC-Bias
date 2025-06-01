@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "track_dangling|181160000|82395000|b2bb0a35-27c0-4aa6-8116-a5c384b8fc8e|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -125,6 +123,7 @@
         0.25,
         0.3,
         0.5,
+        0.6,
         0.8,
         1.1
       ],
@@ -353,7 +352,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PMA5-123-3W_DConly_v1.kicad_pro",
+    "filename": "PMA5-123-3W_DC_V1.0.kicad_pro",
     "version": 1
   },
   "net_settings": {

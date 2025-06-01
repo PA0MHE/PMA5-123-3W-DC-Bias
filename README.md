@@ -5,13 +5,13 @@
  - LDO for VDD, typical 7V
  - Switch to switch off or on Vdd
  - Idd Current measurment
- - DAC controlled (negative) Vgg synthersizer
+ - DAC controlled (negative) Vgg powersupply
  - Inputs:
 	+8 .. 12V DC
 	PTT
  - Outputs
 	Vdd
-	Vgg (-1.% .. -0.75V
+	Vgg (-1.5 .. -0.75V
 	
  
 # Key components:
@@ -28,7 +28,7 @@
 	clock: 8 MHz internal
 	Programmer: serialUPDI 230400 baud
 
- By pressing SW1 once in RX condition, the Idq is set to ~450mA and stored in EEPROM
+ By pressing SW1 during Power-Up, Idq is set to ~400mA and stored in EEPROM
  	
  HEX file is included.
 
@@ -37,5 +37,13 @@
 
 Gerber files are included, PCB's can be ordered at JCL PCB 
 
+# Software
 
-73's Maarten PA0MHE
+A V1.0 of the Control software is included.
+Please Check the comments and disclamer before
+any attempt to use this Controller board.
+
+
+73's
+Maarten PA0MHE
+Rens PA3AXA
