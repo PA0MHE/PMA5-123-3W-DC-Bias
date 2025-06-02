@@ -47,6 +47,14 @@ A V1.0 of the Control software is included.
 "This software and hardware design is provided "as is" and without  
 any warranties, express or implied, including but not limited to the   
 implied warranties of merchantability and fitness for a particular purpose." 
+	
+Normal operation:
+During RX the Vgg is at around -1.5V and the Vdd is zero.
+In TX the for 400mA Idq required bias voltage is applied at Vgg
+	
+First time use / calibration:
+When SW1 is pressed during power up, the Idq is aligned at ~400mA, the required Vgg value is stored in non volatile memory.
+When this above calibration is not done, the a Vgg minimum value of ~ -1.5V is always applied.
 
 
 73's
